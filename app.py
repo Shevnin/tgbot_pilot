@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 import json
 
-TOKEN = os.environ.get("8086575089:AAGXMAx58w8fHhCxv_MXM71JuwjsZ-umKrE") or 'сюда_твой_токен'
+TOKEN = '8086575089:AAGXMAx58w8fHhCxv_MXM71JuwjsZ-umKrE'
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
 
